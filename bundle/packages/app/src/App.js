@@ -22,6 +22,8 @@ import DiscussionsApp from '@kineticdata/bundle-discussions';
 import SettingsApp from '@kineticdata/bundle-settings';
 import SurveyApp from '@kineticdata/bundle-survey';
 
+import SandboxPortalApp from 'sandbox-portal';
+
 /**
  * The git repo name to be used for fetching deployed versions of this bundle.
  * Set if this repo is connected to the codefresh pipeline for auto building and
@@ -35,6 +37,7 @@ const BUNDLE_PACKAGE_PROVIDERS = {
   queue: QueueApp,
   'tech-bar': TechBarApp,
   survey: SurveyApp,
+  'sandbox-portal': SandboxPortalApp,
 };
 
 // List of available static packages
